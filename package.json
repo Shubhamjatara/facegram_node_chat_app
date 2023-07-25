@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start":"node index"
+  },
+  "author": "Shiv_the_human_code",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  }
+}
